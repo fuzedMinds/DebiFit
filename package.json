@@ -12,18 +12,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue": "^3.3.4",
     "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.9"
   },
-  "keywords": ["fitness", "trainer", "website", "react", "vue", "tailwind"],
+  "keywords": ["fitness", "trainer", "website", "react", "tailwind"],
   "author": "DebiFit",
   "license": "MIT"
 } 

@@ -1,11 +1,14 @@
 const { defineConfig } = require('vite')
 const react = require('@vitejs/plugin-react')
-const vue = require('@vitejs/plugin-vue')
 
 module.exports = defineConfig({
-  plugins: [react(), vue()],
+  plugins: [react()],
   server: {
     port: 3000,
     open: true
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
   }
 }) 
