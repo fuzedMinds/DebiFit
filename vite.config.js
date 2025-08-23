@@ -6,5 +6,12 @@ module.exports = defineConfig({
   server: {
     port: 3000,
     open: true
+  },
+  build: {
+    target: 'es2015',
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html'
+    }
   }
 }) 
