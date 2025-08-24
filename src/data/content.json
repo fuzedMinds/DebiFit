@@ -1,0 +1,226 @@
+{
+  "site": {
+    "name": "DebiFit",
+    "tagline": "Transform Your Life Through Fitness",
+    "description": "Professional fitness training with personalized workout plans, nutrition guidance, and motivation to achieve your fitness goals."
+  },
+  "navigation": {
+    "logo": "DebiFit",
+    "menu": [
+      { "name": "Home", "path": "/", "icon": "fas fa-home" },
+      { "name": "Training", "path": "/training", "icon": "fas fa-dumbbell" },
+      { "name": "Contact", "path": "/contact", "icon": "fas fa-envelope" }
+    ]
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your Life Through Fitness",
+      "subtitle": "Professional training, personalized plans, and unwavering motivation to help you achieve your fitness goals.",
+      "cta": "Start Your Journey",
+      "image": "/hero-image.jpg"
+    },
+    "features": [
+      {
+        "icon": "fas fa-user-friends",
+        "title": "Personal Training",
+        "description": "One-on-one sessions tailored to your specific goals and fitness level."
+      },
+      {
+        "icon": "fas fa-apple-alt",
+        "title": "Nutrition Guidance",
+        "description": "Expert advice on fueling your body for optimal performance and results."
+      },
+      {
+        "icon": "fas fa-heart",
+        "title": "Health & Wellness",
+        "description": "Comprehensive approach to physical and mental well-being."
+      },
+      {
+        "icon": "fas fa-chart-line",
+        "title": "Progress Tracking",
+        "description": "Monitor your improvements with detailed progress reports and analytics."
+      }
+    ],
+    "about": {
+      "title": "Meet Your Trainer",
+      "name": "Debi Johnson",
+      "description": "With over 10 years of experience in fitness training, I've helped hundreds of clients transform their lives through dedicated training and proper nutrition. My passion is seeing you succeed and reach your full potential.",
+      "credentials": [
+        "Certified Personal Trainer (NASM)",
+        "Nutrition Specialist (ACE)",
+        "Sports Medicine Certification",
+        "Yoga & Pilates Instructor"
+      ],
+      "image": "/trainer-image.jpg"
+    },
+    "testimonials": [
+      {
+        "name": "Sarah M.",
+        "role": "Client for 2 years",
+        "text": "Debi transformed my approach to fitness. I've lost 30 pounds and gained confidence I never had before!",
+        "image": "/testimonial-1.jpg"
+      },
+      {
+        "name": "Mike R.",
+        "role": "Client for 1 year",
+        "text": "The personalized training plan and nutrition guidance helped me achieve my marathon goal. Debi is amazing!",
+        "image": "/testimonial-2.jpg"
+      },
+      {
+        "name": "Lisa K.",
+        "role": "Client for 3 years",
+        "text": "Debi's motivation and expertise kept me on track through my pregnancy and postpartum fitness journey.",
+        "image": "/testimonial-3.jpg"
+      }
+    ],
+    "stats": [
+      { "number": "500+", "label": "Happy Clients" },
+      { "number": "10+", "label": "Years Experience" },
+      { "number": "95%", "label": "Success Rate" },
+      { "number": "24/7", "label": "Support Available" }
+    ]
+  },
+  "training": {
+    "title": "Training Services",
+    "subtitle": "Choose the service that fits your fitness goals and budget",
+    "services": [
+      {
+        "name": "Beginner Guidance",
+        "description": "Perfect for those just starting their fitness journey. Get the foundation you need to succeed.",
+        "features": [
+          "Basic daily workout plan",
+          "Nutrition plan",
+          "One-time service",
+          "Perfect for beginners"
+        ],
+        "duration": "One Time",
+        "originalPrice": "₹299",
+        "offerPrice": "₹30",
+        "discount": "90% OFF",
+        "icon": "fas fa-seedling",
+        "popular": false
+      },
+      {
+        "name": "Workout Plan",
+        "description": "Comprehensive workout plans with routine tracking to keep you motivated and on track.",
+        "features": [
+          "Daily workout plan",
+          "Routine tracking included",
+          "Nutrition plan",
+          "One-time service"
+        ],
+        "duration": "One Time",
+        "originalPrice": "₹299",
+        "offerPrice": "₹30",
+        "discount": "90% OFF",
+        "icon": "fas fa-dumbbell",
+        "popular": false
+      },
+      {
+        "name": "Nutrition Calculation",
+        "description": "Get your personalized nutrition calculations to fuel your body properly for your goals.",
+        "features": [
+          "Nutrition calculation",
+          "Personalized meal planning",
+          "One-time service",
+          "Expert guidance"
+        ],
+        "duration": "One Time",
+        "originalPrice": "₹199",
+        "offerPrice": "₹20",
+        "discount": "90% OFF",
+        "icon": "fas fa-apple-alt",
+        "popular": false
+      },
+      {
+        "name": "Personal Training (Online)",
+        "description": "Weekly personalized training with online sessions via Google Meet or Zoom.",
+        "features": [
+          "Weekly workout plan based on progress",
+          "Weekly nutrition plan",
+          "Online training via Google Meet/Zoom",
+          "15 sessions in 1 month"
+        ],
+        "duration": "15 Sessions (1 Month)",
+        "originalPrice": "₹1,999",
+        "offerPrice": "₹200",
+        "discount": "90% OFF",
+        "icon": "fas fa-laptop",
+        "popular": true
+      },
+      {
+        "name": "Personal Training (In Person)",
+        "description": "Face-to-face training at your nearest gym with weekly progress-based plans.",
+        "features": [
+          "Weekly workout plan based on progress",
+          "Weekly nutrition plan",
+          "Training at nearest gym",
+          "15 sessions in 1 month"
+        ],
+        "duration": "15 Sessions (1 Month)",
+        "originalPrice": "₹2,999",
+        "offerPrice": "₹300",
+        "discount": "90% OFF",
+        "icon": "fas fa-user-friends",
+        "popular": false
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your fitness journey? Let's talk about your goals!",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Tell me about your fitness goals",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "items": [
+        {
+          "icon": "fas fa-map-marker-alt",
+          "label": "Address",
+          "value": "123 Fitness Street, Health City, HC 12345"
+        },
+        {
+          "icon": "fas fa-clock",
+          "label": "Hours",
+          "value": "Mon-Fri: 6AM-8PM, Sat: 8AM-6PM"
+        }
+      ]
+    },
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/debifit",
+        "icon": "fab fa-facebook"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/debifit",
+        "icon": "fab fa-instagram"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/debifit",
+        "icon": "fab fa-youtube"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/debifit",
+        "icon": "fab fa-linkedin"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Transform your life through fitness with DebiFit. Professional training, personalized plans, and unwavering motivation.",
+    "links": [
+      { "name": "Privacy Policy", "url": "/privacy" },
+      { "name": "Terms of Service", "url": "/terms" },
+      { "name": "FAQ", "url": "/faq" }
+    ],
+    "copyright": "© 2024 DebiFit. All rights reserved."
+  }
+} 
