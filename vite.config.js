@@ -10,6 +10,9 @@ module.exports = defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false
+    sourcemap: false,
+    rollupOptions: {
+      input: 'index.html'
+    }
   }
 }) 
