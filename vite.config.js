@@ -8,10 +8,8 @@ module.exports = defineConfig({
     open: true
   },
   build: {
-    target: 'es2015',
     outDir: 'dist',
-    rollupOptions: {
-      input: 'index.html'
-    }
+    assetsDir: 'assets',
+    sourcemap: false
   }
 }) 
