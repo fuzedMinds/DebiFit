@@ -3,6 +3,7 @@
 ## 📋 Prerequisites
 - GitHub account with your DebiFit repository
 - Vercel account (free tier available)
+- Node.js 16+ installed locally for testing
 
 ## 🔧 Vercel Deployment Steps
 
@@ -22,11 +23,13 @@ git push origin main
 5. Click **"Deploy"**
 
 ### 3. **Configuration (Automatic)**
-Vercel will automatically use these settings from `vercel.json`:
+Vercel will automatically use these optimized settings from `vercel.json`:
 - **Build Command**: `npm run build`
 - **Output Directory**: `dist`
 - **Framework**: Vite
 - **Install Command**: `npm install`
+- **SPA Routing**: Automatic redirects to index.html
+- **Asset Caching**: Optimized cache headers for static assets
 
 ### 4. **Environment Variables (if needed)**
 If you add any environment variables later, add them in Vercel dashboard:
@@ -45,6 +48,10 @@ If you add any environment variables later, add them in Vercel dashboard:
 - [ ] Check mobile responsiveness
 - [ ] Verify logo displays correctly
 - [ ] Test all training service links
+- [ ] Check asset loading (images, CSS, JS)
+- [ ] Test browser back/forward navigation
+- [ ] Verify 404 handling redirects to home
+- [ ] Check console for any errors
 
 ## 🔄 Automatic Deployments
 - Every push to `main` branch triggers automatic deployment
@@ -57,10 +64,36 @@ If deployment fails:
 2. Ensure `npm run build` works locally
 3. Verify all dependencies are in `package.json`
 4. Check for any build errors in console
+5. Ensure all imports use relative paths
+6. Verify React Router setup is correct
+
+## 🚀 Performance Optimizations Applied
+- **Code Splitting**: Vendor and router chunks separated
+- **Asset Caching**: Long-term caching for static assets
+- **Minification**: Terser minification enabled
+- **SPA Routing**: Proper redirects for all routes
+- **Build Optimization**: Optimized Vite configuration
 
 ## 📞 Support
 - Vercel Documentation: [vercel.com/docs](https://vercel.com/docs)
 - Vite Documentation: [vitejs.dev](https://vitejs.dev)
 
 ---
+
 **Your DebiFit website will be live at: `https://your-project-name.vercel.app`**
+
+## 🔍 Pre-Deployment Testing
+```bash
+# Install dependencies
+npm install
+
+# Test build locally
+npm run build
+
+# Preview production build
+npm run preview
+
+# Check for any console errors
+# Test all navigation routes
+# Verify all assets load correctly
+```
